@@ -133,14 +133,14 @@ const extrasDishes = [
     "AROS DE CEBOLLA",
     "NACHOS",
     "ACEITUNAS"
-]
+];
 
 const extrasPrices = [
     1,
     2,
     1.8,
     1
-]
+];
 
 
 function menuOfferedByHour() {
@@ -192,7 +192,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el primer plato que deseas."\n${shownMenu}`, morningMenuFirstDishes[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el primer plato que deseas."\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 morningMenuFirstDishes.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -216,7 +216,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el segundo plato que deseas.\n${shownMenu}`, morningMenuSecondDishes[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el segundo plato que deseas.\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 morningMenuSecondDishes.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -240,7 +240,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el postre que deseas.\n${shownMenu}`, morningMenuDessert[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el postre que deseas.\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 morningMenuDessert.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -266,7 +266,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el primer plato que deseas."\n${shownMenu}`, lunchMenuFirstDishes[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el primer plato que deseas."\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 lunchMenuFirstDishes.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -290,7 +290,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el segundo plato que deseas.\n${shownMenu}`, lunchMenuSecondDishes[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el segundo plato que deseas.\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 lunchMenuSecondDishes.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -314,7 +314,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el postre que deseas.\n${shownMenu}`, lunchMenuDessert[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el postre que deseas.\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 lunchMenuDessert.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -340,7 +340,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el primer plato que deseas."\n${shownMenu}`, dinnerMenuFirstDishes[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el primer plato que deseas."\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 dinnerMenuFirstDishes.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -364,7 +364,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el segundo plato que deseas.\n${shownMenu}`, dinnerMenuSecondDishes[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el segundo plato que deseas.\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 dinnerMenuSecondDishes.forEach((num1, index) => {
                     if (num1 === userAnswer) {
@@ -388,7 +388,7 @@ function selectDish() {
                 shownMenu += `${num1} -- ${num2}€\n`;
             });
             do {
-                userAnswer = prompt(`\nPor favor, selecciona el postre que deseas.\n${shownMenu}`, dinnerMenuDessert[0]);
+                userAnswer = prompt(`\nPor favor, selecciona el postre que deseas.\n${shownMenu}`);
                 userAnswer = userAnswer.toUpperCase();
                 dinnerMenuDessert.forEach((num1, index) => {
                     if (num1 === userAnswer) {
